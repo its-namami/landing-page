@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto-Regular.ttf');
+}
+
+:root {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #1F2937;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.hero {
+  background-color: #1F2937;
+
+  h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+  }
+
+  p {
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+}
+
+.hero button,
+.cta {
+  background-color: #3882F6;
+}
+
+.info h2 {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+}
+
+blockquote {
+  background-color: #E5E7EB;
+  font-size: 36px;
+  color: #1F2937;
+  weight: 300;
+  font-style: italic;
+}
+
+footer {
+  background-color: #1F2937;
+}
