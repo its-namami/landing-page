@@ -224,6 +224,13 @@ button {
 
 footer {
   background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 5em;
+}
+
 section.main-content {
   display: flex;
   flex-direction: column;
