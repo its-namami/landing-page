@@ -147,6 +147,30 @@ header, .hero { background-color: #1F2937 }
   }
 }
 
+.quote {
+  background-color: #E5E7EB;
+  color: #1F2937;
+  font-weight: 300;
+  max-width: 800px;
+  margin: auto;
+  padding: 5em;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  
+  blockquote {
+    font-size: 36px;
+    font-style: italic;
+    margin: 0;
+  }
+
+  p.author {
+    font-weight: 700;
+    margin: 0;
+    align-self: end;
+  }
+}
+
 .cta {
   background-color: #3882F6;
 }
@@ -167,4 +191,9 @@ blockquote {
 
 footer {
   background-color: #1F2937;
+section.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5em;
+  justify-content: space-between;
 }
