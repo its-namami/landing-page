@@ -8,15 +8,42 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
 header {
-  background-color: #1F2937;
+  @media (max-width: 1200px) {
+    padding: 0 3em;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+  }
+
+  ul {
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    gap: 1em;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
 }
 
-.logo {
-  font-size: 24px;
-  color: #F9FAF8;
-}
-
+header, .hero { background-color: #1F2937 }
 .hero {
   background-color: #1F2937;
 
