@@ -171,22 +171,55 @@ header, .hero { background-color: #1F2937 }
   }
 }
 
+button,
 .cta {
   background-color: #3882F6;
 }
 
-.info h2 {
-  font-size: 36px;
-  color: #1F2937;
-  font-weight: 900;
+.cta {
+  display: flex;
+  color: white;
+  justify-content: center;
+  padding: 3em;
+  box-sizing: border-box;
+  gap: 3em;
+  max-width: 1000px;
+  margin-inline: auto;
+  border-radius: 1em;
+  
+
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: .3em;
+  }
+  
+  h3 {
+    margin: 0;
+    max-width: 70ch;
+  }
+
+  p {
+    margin: 0;
+    max-width: 70ch;
+  }
+  
+  button {
+    border: 1px solid white;
+  }
 }
 
-blockquote {
-  background-color: #E5E7EB;
-  font-size: 36px;
-  color: #1F2937;
-  weight: 300;
-  font-style: italic;
+button {
+  width: max-content;
+  padding: .5em 2em;
+  color: white;
+  border: none;
+  border-radius: .5em;
+  font-size: 1em;
+
+  &:hover {
+    outline: 1px solid white;
+  }
 }
 
 footer {
