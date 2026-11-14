@@ -44,18 +44,56 @@ header {
 }
 
 header, .hero { background-color: #1F2937 }
-.hero {
-  background-color: #1F2937;
 
+.hero {
+  padding: 5em 0;
+
+  @media(max-width: 1200px) {
+    padding: 3em 5em;
+  }
+
+  @media(max-width: 800px) {
+    padding: 3em 3em;
+  }
+  
+  .container {
+    display: flex;
+    gap: 3em;
+    align-items: center;
+
+    @media(max-width: 800px) {
+      flex-direction: column;
+    }
+  }
+
+  .container > * {
+    display: flex;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .hero-text {
+    flex-flow: column wrap;
+    gap: 1em;
+  }
+  
   h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin: 0;
   }
 
   p {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0;
+  }
+
+
+  
+  img {
+    width: 100%
   }
 }
 
